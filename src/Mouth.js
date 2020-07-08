@@ -1,7 +1,7 @@
 import React from 'react';
 import './Mouth.scss';
 
-function Mouth() {
+const Mouth = () => {
   return (
     <div className="Mouth">
     </div>

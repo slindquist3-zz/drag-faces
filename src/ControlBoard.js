@@ -1,10 +1,17 @@
 import React from 'react';
 import './ControlBoard.scss';
+import Button from './Button';
 
-function ControlBoard() {
+const ControlBoard = () => {
+
+  const handleWinkClick = () => {
+    alert("hi")
+  }
+
   return (
     <div className="ControlBoard">
-        <button>touch</button>
+      <Button action={handleWinkClick} label="wink" />
+      <Button action={handleWinkClick} label="me" />
     </div>
   );
 }

@@ -1,7 +1,7 @@
 import React from 'react';
 import './Eye.scss';
 
-function Eye() {
+const Eye = () => {
   return (
     <div className="Eye">
         <div className="cornea">

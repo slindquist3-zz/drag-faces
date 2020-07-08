@@ -3,7 +3,7 @@ import './Face.scss';
 import Eye from './Eye.js';
 import Mouth from './Mouth.js';
 
-function Face() {
+const Face = () => {
   return (
     <div className="Face">
         <Eye />
