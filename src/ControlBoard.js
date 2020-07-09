@@ -4,14 +4,20 @@ import Button from './Button';
 
 const ControlBoard = () => {
 
-  const handleWinkClick = () => {
+  const handleLeftEyeClick = () => {
     alert("hi")
   }
 
+  const handleRightEyeClick = () => {
+    alert("bye")
+  }
+
+
+
   return (
-    <div className="ControlBoard">
-      <Button action={handleWinkClick} label="wink" />
-      <Button action={handleWinkClick} label="me" />
+    <div className="control-board">
+        <Button action={handleLeftEyeClick} label="wink" />
+        <Button action={handleRightEyeClick} label="me" />
     </div>
   );
 }
